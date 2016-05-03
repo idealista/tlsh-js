@@ -1,5 +1,7 @@
 # JavaScript port of TLSH (Trend Micro Locality Sensitive Hash)
 
+[![Build Status](https://travis-ci.org/idealista-tech/tlsh-js.svg?branch=master)](https://travis-ci.org/idealista-tech/tlsh-js)
+
 TLSH is a fuzzy matching library designed by [Trend Micro](http://www.trendmicro.com) (Hosted in [GitHub](https://github.com/trendmicro/tlsh)) 
 
 Given a byte stream with a minimum length of 512 characters (and a minimum amount of randomness), TLSH generates a hash value which can be used for similarity comparisons. Similar objects will have similar hash values which allows for the detection of similar objects by comparing their hash values. Note that the byte stream should have a sufficient amount of complexity. For example, a byte stream of identical bytes will not generate a hash value.
