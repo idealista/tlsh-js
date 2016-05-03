@@ -1,0 +1,28 @@
+{
+  "name": "tlsh",
+  "version": "1.0.0",
+  "description": "JavaScript port of TLSH (Trend Locality Sensitive Hash)",
+  "main": "tlsh.js",
+  "author": "idealista <labs@idealista.com> (http://www.idealista.com/labs/blog/)",
+  "homepage": "https://github.com/idealista-tech/tlsh-js",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/idealista-tech/tlsh-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/idealista-tech/tlsh-js/issues"
+  },
+  "keywords": [
+    "tlsh",
+    "hash"
+  ],
+  "devDependencies": {
+    "grunt": "0.4.5",
+    "grunt-contrib-jasmine": "1.0.0",
+    "grunt-contrib-jshint": "~0.2.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
+}
