@@ -1,9 +1,12 @@
 'use strict';
 
+var modularDifferenceCalculator = require('../../lib/digests/modular-difference-calculator');
+var expect = require('expect.js');
+
 describe("ModuleDifferenceCalculator", function(){
     var data;
 
-    beforeAll(function(done) {
+    before(function(done) {
         data = [
             [3, 4, 16, 1], 
             [3, 10, 16, 7], 
@@ -21,7 +24,7 @@ describe("ModuleDifferenceCalculator", function(){
 
             var expected = item[3];
 
-            expect(tlsh.ModularDifferenceCalculator(initialPosition, finalPosition, circularQueueSize)).toBe(expected);
+            expect(modularDifferenceCalculator(initialPosition, finalPosition, circularQueueSize)).to.be(expected);
         });
     });
 

@@ -12,30 +12,28 @@ module.exports = function(grunt) {
         globals : {
           it: false,
           describe: false,
-          expect: false,
           Tlsh: false,
           tlsh: true,
-          beforeEach: false,
-          beforeAll: false,
+          before: false,
           ModularDifferenceCalculator: true,
           DigestHashBuilder: true,
-          InsufficientComplexityError: false
+          InsufficientComplexityError: true
         }
       }
     },
-    jasmine: {
-      tlsh: {
-        src: 'lib/**/*.js',
+    mochaTest: {
+      test: {
         options: {
-          specs: 'spec/**/*-spec.js'
-        }
+          reporter: 'spec'
+        },
+        src: ['spec/**/*-spec.js']
       }
     }
   });
 
-  grunt.loadNpmTasks('grunt-contrib-jasmine');
   grunt.loadNpmTasks('grunt-contrib-jshint');
+  grunt.loadNpmTasks('grunt-mocha-test');
 
-  grunt.registerTask('test', ['jshint', 'jasmine']);
+  grunt.registerTask('test', ['jshint', 'mochaTest']);
   grunt.registerTask('default', ['test']);
 };
