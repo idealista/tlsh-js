@@ -28,7 +28,7 @@ var str = "The best documentation is the UNIX source. After all, this is what th
             "you find options described in the manual that are unimplemented " +
             "and ignored by the source.";
 
-var hash = tlsh.hash(str);   
+var hash = hash(str);   
 ```
 
 The resultant hash will be _6FF02BEF718027B0160B4391212923ED7F1A463D563B1549B86CF62973B197AD2731F8_ as is described in the TLSH unit tests.
@@ -47,8 +47,8 @@ to generate a hash value. In other case an **InsufficientComplexityError** will 
 1. You should to create two digests using the Digest Hash Builder with hashes as inputs:
 
 ```javascript
-var digest1 = new tlsh.DigestHashBuilder().withHash("09F05A198CC69A5A4F0F9380A9EE93F2B927CF42089EA74276DC5F0BB2D34E68114448").build();
-var digest2 = new tlsh.DigestHashBuilder().withHash("301124198C869A5A4F0F9380A9AE92F2B9278F42089EA34272885F0FB2D34E6911444C").build();
+var digest1 = new DigestHashBuilder().withHash("09F05A198CC69A5A4F0F9380A9EE93F2B927CF42089EA74276DC5F0BB2D34E68114448").build();
+var digest2 = new DigestHashBuilder().withHash("301124198C869A5A4F0F9380A9AE92F2B9278F42089EA34272885F0FB2D34E6911444C").build();
 ```
 
 2. You can compute the difference using one Digest against the other one
