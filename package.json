@@ -17,6 +17,9 @@
     "tlsh",
     "hash"
   ],
+  "dependencies" : {
+    "grunt-browserify": "^5.0.0"
+  },
   "devDependencies": {
     "grunt": "0.4.5",
     "grunt-contrib-jshint": "~0.2.0",
@@ -25,6 +28,7 @@
     "expect.js": "^0.3.1"
   },
   "scripts": {
-    "test": "grunt test"
+    "test": "grunt test",
+    "postinstall" : "grunt browserify"
   }
 }

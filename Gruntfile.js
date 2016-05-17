@@ -1,6 +1,8 @@
 module.exports = function(grunt) {
   'use strict';
 
+  var pkg = grunt.file.readJSON('package.json');
+
   grunt.initConfig({
     jshint: {
       files: {
@@ -28,12 +30,24 @@ module.exports = function(grunt) {
         },
         src: ['spec/**/*-spec.js']
       }
+    },
+    browserify: {
+      dist : {
+        src: [pkg.main],
+        dest: 'dist/tlsh.min.js',
+        options: {
+          browserifyOptions: {
+            standalone: 'mispelotas'
+          }
+        }
+      }
     }
   });
 
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-mocha-test');
+  grunt.loadNpmTasks('grunt-browserify');
 
-  grunt.registerTask('test', ['jshint', 'mochaTest']);
-  grunt.registerTask('default', ['test']);
+  grunt.registerTask('test', 'mochaTest');
+  grunt.registerTask('default', ['jshint', 'test', 'browserify']);
 };
