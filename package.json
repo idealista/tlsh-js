@@ -1,6 +1,6 @@
 {
   "name": "tlsh",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "JavaScript port of TLSH (Trend Locality Sensitive Hash)",
   "main": "lib/tlsh.js",
   "author": "idealista <labs@idealista.com> (http://www.idealista.com/labs/blog/)",

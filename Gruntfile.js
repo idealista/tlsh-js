@@ -37,7 +37,7 @@ module.exports = function(grunt) {
         dest: 'dist/tlsh.min.js',
         options: {
           browserifyOptions: {
-            standalone: 'mispelotas'
+            standalone: 'Tlsh'
           }
         }
       }
