@@ -1,6 +1,6 @@
 {
   "name": "tlsh",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "JavaScript port of TLSH (Trend Locality Sensitive Hash)",
   "main": "lib/tlsh.js",
   "author": "idealista <labs@idealista.com> (http://www.idealista.com/labs/blog/)",
@@ -17,18 +17,17 @@
     "tlsh",
     "hash"
   ],
-  "dependencies" : {
-    "grunt-browserify": "^5.0.0"
-  },
   "devDependencies": {
     "grunt": "0.4.5",
     "grunt-contrib-jshint": "~0.2.0",
     "grunt-mocha-test": "^0.12.7",
+    "grunt-browserify": "^5.0.0",
     "mocha": "^2.4.5",
     "expect.js": "^0.3.1"
   },
   "scripts": {
-    "test": "grunt test",
-    "postinstall" : "grunt browserify"
+    "preinstall": "npm install --ignore-scripts",
+    "postinstall" : "grunt browserify",
+    "test": "grunt test"
   }
 }
