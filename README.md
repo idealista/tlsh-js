@@ -8,6 +8,10 @@ Given a byte stream with a minimum length of 512 characters (and a minimum amoun
 
 The computed hash is 70 hexadecimal characters long. The first 6 characters are used to capture the information about the file as a whole (length, ...), while the last 64 characters are used to capture information about incremental parts of the file.
 
+## Installation
+
+Although originally designed for use with Node.js and installable via npm using **npm install --save tlsh**, it can also be used directly in the browser (see *browserify* task defined in Gruntfile.js).
+
 ## How it's used
 
 With TLSH mainly you can calculate a hash using supported Strings and compute the difference between two resultant hashes.
