@@ -1,6 +1,6 @@
 # JavaScript port of TLSH (Trend Micro Locality Sensitive Hash)
 
-[![Build Status](https://travis-ci.org/idealista-tech/tlsh-js.svg?branch=master)](https://travis-ci.org/idealista-tech/tlsh-js)
+[![Build Status](https://travis-ci.org/idealista/tlsh-js.svg?branch=master)](https://travis-ci.org/idealista/tlsh-js)
 
 TLSH is a fuzzy matching library designed by [Trend Micro](http://www.trendmicro.com) (Hosted in [GitHub](https://github.com/trendmicro/tlsh)) 
 
