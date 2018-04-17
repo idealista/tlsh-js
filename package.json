@@ -4,14 +4,14 @@
   "description": "JavaScript port of TLSH (Trend Locality Sensitive Hash)",
   "main": "lib/tlsh.js",
   "author": "idealista <labs@idealista.com> (http://www.idealista.com/labs/blog/)",
-  "homepage": "https://github.com/idealista-tech/tlsh-js",
+  "homepage": "https://github.com/idealista/tlsh-js",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/idealista-tech/tlsh-js.git"
+    "url": "https://github.com/idealista/tlsh-js.git"
   },
   "bugs": {
-    "url": "https://github.com/idealista-tech/tlsh-js/issues"
+    "url": "https://github.com/idealista/tlsh-js/issues"
   },
   "keywords": [
     "tlsh",
@@ -27,7 +27,7 @@
   },
   "scripts": {
     "preinstall": "npm install --ignore-scripts",
-    "postinstall" : "grunt browserify",
+    "postinstall": "grunt browserify",
     "test": "grunt test"
   }
 }
