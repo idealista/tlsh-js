@@ -8,3 +8,13 @@ This project adheres to [Semantic Versioning](http://semver.org/) and [Keep a ch
 
 ### Added
 - *First release* @dortegau
+
+## [1.0.6](https://github.com/idealista/tlsh-js/tree/1.0.6)
+
+### Dependency Updated
+- *grunt: 0.4.5 -> ^1.0.3* @johnhenry
+- *grunt-contrib-jshint: ~0.2.0 -> 2.0.0* @johnhenry
+- *mocha: 2.4.5 -> 5.2.0* @johnhenry
+
+### Dependency Removed
+- *global grunt* @johnhenry
