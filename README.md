@@ -79,7 +79,7 @@ The difference should be calculated using the file length component or removing 
 
 ## Requirements
 
-The library has been tested with _Node.js v4.4.3_, _npm 2.15.1_ and _grunt v1.0.3_. Newer versions should work but could also present issues.
+The library has been tested with _Node.js v8.12.0_, _npm 6.4.1_ and _grunt v1.0.3_. Newer versions should work but could also present issues.
 
 ## Design choices
 
