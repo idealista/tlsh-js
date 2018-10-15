@@ -1,8 +1,6 @@
 language: node_js
 node_js:
-- '4'
-before_install:
-- npm install grunt-cli -g
+- '8'
 deploy:
   provider: npm
   email: labs@idealista.com
