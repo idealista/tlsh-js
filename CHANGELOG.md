@@ -4,6 +4,8 @@ This project adheres to [Semantic Versioning](http://semver.org/) and [Keep a ch
 
 ## [Unreleased](https://github.com/idealista/tlsh-js/tree/develop)
 
+## [1.0.6](https://github.com/idealista/tlsh-js/tree/1.0.6)
+
 ### Changed
 - *updated grunt: 0.4.5 -> ^1.0.3* @johnhenry
 - *updated grunt-contrib-jshint: ~0.2.0 -> 2.0.0* @johnhenry
