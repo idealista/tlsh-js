@@ -4,6 +4,9 @@ This project adheres to [Semantic Versioning](http://semver.org/) and [Keep a ch
 
 ## [Unreleased](https://github.com/idealista/tlsh-js/tree/develop)
 
+### Changed
+- *fixed build: users of your library should not need to install grunt (PR #16)* @dpoetzsch
+
 ## [1.0.6](https://github.com/idealista/tlsh-js/tree/1.0.6)
 
 ### Changed
