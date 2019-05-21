@@ -26,8 +26,7 @@
     "expect.js": "^0.3.1"
   },
   "scripts": {
-    "preinstall": "npm install --ignore-scripts",
-    "postinstall": "grunt browserify",
+    "prepare": "grunt browserify",
     "test": "grunt test"
   }
 }
