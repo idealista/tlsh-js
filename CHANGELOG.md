@@ -4,11 +4,11 @@ This project adheres to [Semantic Versioning](http://semver.org/) and [Keep a ch
 
 ## [Unreleased](https://github.com/idealista/tlsh-js/tree/develop)
 
-### Changed
-- *fixed build: users of your library should not need to install grunt (PR #16)* @dpoetzsch
+## [1.0.7](https://github.com/idealista/tlsh-js/tree/1.0.7)
+### Fixed
+- *[#16](https://github.com/idealista/tlsh-js/pull/16)fixed build: users of your library should not need to install grunt* @dpoetzsch
 
 ## [1.0.6](https://github.com/idealista/tlsh-js/tree/1.0.6)
-
 ### Changed
 - *updated grunt: 0.4.5 -> ^1.0.3* @johnhenry
 - *updated grunt-contrib-jshint: ~0.2.0 -> 2.0.0* @johnhenry
@@ -16,6 +16,5 @@ This project adheres to [Semantic Versioning](http://semver.org/) and [Keep a ch
 - *updated grunt-browserify: 5.0.0 -> 5.3.0* @dortegau
 
 ## [1.0.5](https://github.com/idealista/tlsh-js/tree/1.0.5)
-
 ### Added
 - *First release* @dortegau
