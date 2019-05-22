@@ -6,7 +6,8 @@ This project adheres to [Semantic Versioning](http://semver.org/) and [Keep a ch
 
 ## [1.0.7](https://github.com/idealista/tlsh-js/tree/1.0.7)
 ### Fixed
-- *[#16](https://github.com/idealista/tlsh-js/pull/16)fixed build: users of your library should not need to install grunt* @dpoetzsch
+- *[#14](https://github.com/idealista/tlsh-js/issues/14) Update browserify due to CVE-2018-16472 in transitive dependency (cached-path-relative)* @jnogol
+- *[#16](https://github.com/idealista/tlsh-js/pull/16) fixed build: users of your library should not need to install grunt* @dpoetzsch
 
 ## [1.0.6](https://github.com/idealista/tlsh-js/tree/1.0.6)
 ### Changed
