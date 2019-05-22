@@ -1,6 +1,7 @@
 language: node_js
 node_js:
 - '8'
+before_deploy: "npm install --ignore-scripts"
 deploy:
   provider: npm
   email: labs@idealista.com
