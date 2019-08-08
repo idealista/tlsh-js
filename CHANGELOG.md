@@ -4,7 +4,8 @@ This project adheres to [Semantic Versioning](http://semver.org/) and [Keep a ch
 
 ## [Unreleased](https://github.com/idealista/tlsh-js/tree/develop)
 ### Fixed
-- *[#20](https://github.com/idealista/tlsh-js/issues/20) Fix deploy to NPM from Travis* @jnogol
+- *[#20](https://github.com/idealista/tlsh-js/issues/20) Fix deploy to NPM from Travis* @jnogol @mchacon
+- *Run `npm audit fix` to fix vulnerabilities* @jnogol
 
 ## [1.0.7](https://github.com/idealista/tlsh-js/tree/1.0.7)
 ### Fixed
