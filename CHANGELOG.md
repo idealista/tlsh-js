@@ -4,6 +4,11 @@ This project adheres to [Semantic Versioning](http://semver.org/) and [Keep a ch
 
 ## [Unreleased](https://github.com/idealista/tlsh-js/tree/develop)
 
+## [1.0.8](https://github.com/idealista/tlsh-js/tree/1.0.8)
+### Fixed
+- *[#20](https://github.com/idealista/tlsh-js/issues/20) Fix deploy to NPM from Travis* @jnogol @mchacon
+- *Run `npm audit fix` to fix vulnerabilities* @jnogol
+
 ## [1.0.7](https://github.com/idealista/tlsh-js/tree/1.0.7)
 ### Fixed
 - *[#14](https://github.com/idealista/tlsh-js/issues/14) Update browserify due to CVE-2018-16472 in transitive dependency (cached-path-relative)* @jnogol
